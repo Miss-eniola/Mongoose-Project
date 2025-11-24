@@ -1,0 +1,25 @@
+# GET http://localhost:4000/api/books
+# Content-Type: application/json
+
+# POST http://localhost:4000/api/books/add
+# Content-Type: application/json
+
+
+# {
+#   "author": "Chinua Achebe",
+#   "publicationNumber": "1st edition",
+#   "ISBN": "978-0-385-47437-1",
+#   "title": "Things Fall Apart",
+#   "dateOfPublication": " June 17, 1958",
+#   "publisher": "William Heinemann Ltd"
+# }
+
+# PUT http://localhost:4000/api/books/692359b4734fba9c94449098
+# Content-Type: application/json
+
+# {
+#   "title": "American Grown"
+# }
+
+DELETE http://localhost:4000/api/books/delete/692359b4734fba9c94449098
+Content-Type: application/json
